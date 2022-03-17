@@ -1,0 +1,52 @@
+#!/bin/zsh
+
+# conda
+#conda create -n env_name -y python=version
+#source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh
+#conda activate env_name
+
+# kernel
+#conda install -c conda-forge -y ipykernel
+#python -m ipykernel install --user --name env_name --display-name "kernel_name"
+
+# jupyter notebook
+#conda install -c conda-forge -y jupyter
+#conda install -c conda-forge -y jupyterthemes
+#jt -t oceans16 -cellw 95% -N -kl -altmd -cursw 2.5 -lineh 160 -T
+#conda install -c conda-forge -y jupyter_contrib_nbextensions
+#conda install -c conda-forge -y autopep8
+
+# jupyterlab
+#conda install -c conda-forge -y jupyterlab
+#conda install -n class -c conda-forge -y jupyterlab_widgets
+#conda install -n class -c conda-forge -y ipywidgets
+
+# openpyxl
+#conda install -c conda-forge -y openpyxl
+
+# pandas
+#conda install -c conda-forge -y pandas
+#conda install -c conda-forge -y pandas-profiling
+#python -m pip install pandas-profiling
+#conda install -c conda-forge -y phik
+#conda install -c conda-forge -y numpy
+#conda install -c conda-forge -y seaborn
+	# Mac - seaborn에서 폰트 깨짐 방지 
+	# sns.set(font="AppleGothic")
+#conda install -c conda-forge -y matplotlib
+
+# tensorflow
+#conda install -c conda-forge -y tensorflow
+
+# nltk
+#conda install -c conda-forge -y nltk
+# konlpy
+#pip install konlpy
+# Mecab
+#curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh | bash -s
+
+
+# jpype1 : connecting python and java
+#conda install -c conda-forge -y jpype1
+
+Exit 0
