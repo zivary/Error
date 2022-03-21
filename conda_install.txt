@@ -50,7 +50,8 @@
 #pip install konlpy
 # Mecab
 #curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh | bash -s
-
+#KSS
+#pip install kss
 
 # jpype1 : connecting python and java
 #conda install -c conda-forge -y jpype1
