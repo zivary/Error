@@ -30,10 +30,13 @@
 #python -m pip install pandas-profiling
 #conda install -c conda-forge -y phik
 #conda install -c conda-forge -y numpy
+
+# 시각화
 #conda install -c conda-forge -y seaborn
 	# Mac - seaborn에서 폰트 깨짐 방지 
 	# sns.set(font="AppleGothic")
 #conda install -c conda-forge -y matplotlib
+#conda install -c conda-forge -y missingno  # 결측치 시각화
 
 # tensorflow: 머신 러닝 오픈소스 라이브러리
 #conda install -c conda-forge -y tensorflow
