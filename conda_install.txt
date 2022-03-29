@@ -36,8 +36,10 @@
 	# Mac - seaborn에서 폰트 깨짐 방지 
 	# sns.set(font="AppleGothic")
 #conda install -c conda-forge -y matplotlib
-#conda install -c conda-forge -y missingno  # 결측치 시각화
-#conda install -c conda-forge python-graphviz # 그래프 시각화
+# missingno 결측치 시각화
+#conda install -c conda-forge -y missingno
+#conda install -c conda-forge -y python-graphviz # 그래프 시각화
+#conda install -c conda-forge -y shap
 
 # ML/DL 관련
 # tensorflow: 머신 러닝 오픈소스 라이브러리
@@ -49,9 +51,13 @@
 # scikit-learn: 파이썬 머신러닝 라이브러리
 #conda install -c conda-forge -y scikit-learn
 # xgboost - 트리 분할 방법의 앙상블 학습 알고리즘 라이브러리
-#conda install -c conda-forge xgboost
+#conda install -c conda-forge -y xgboost
 # LightGBM - 리프 중심 트리 분할(Leaf Wise) 방식 앙상블 학습 알고리즘 라이브러리
-#conda install -c conda-forge lightgbm
+#conda install -c conda-forge -y lightgbm
+# 대용량 데이터 다루기
+#conda install -c conda-forge -y pyarrow
+# 하이퍼파라미터 최적화
+#conda install -c conda-forge -y optuna
 
 # 자연어 처리
 #conda install -c conda-forge -y nltk
