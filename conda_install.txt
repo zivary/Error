@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # conda
 #conda create -n env_name -y python=version
