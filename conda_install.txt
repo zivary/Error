@@ -5,6 +5,9 @@
 #source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh
 #conda activate env_name
 
+# schedule : 스케줄링 모듈
+#conda install -c conda-forge -y schedule
+
 # kernel
 #conda install -c conda-forge -y ipykernel
 #python -m ipykernel install --user --name env_name --display-name "kernel_name"
@@ -21,7 +24,7 @@
 #conda install -n class -c conda-forge -y jupyterlab_widgets
 #conda install -n class -c conda-forge -y ipywidgets
 
-# openpyxl
+# openpyxl : excel 파일 사용할 수 있게 해주는 라이브러리
 #conda install -c conda-forge -y openpyxl
 
 # pandas
