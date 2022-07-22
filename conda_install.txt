@@ -71,6 +71,9 @@
 #KSS
 #pip install kss
 
+# ??
+#conda install -c conda-forge -y xmltodic
+
 # 한국어 전처리 패키지(Text Preprocessing Tools for Korean Text)
 # PyKoSpacing 문장을 띄어쓰기를 한 문장으로 변환해주는 패키지
 #pip install git+https://github.com/haven-jeon/PyKoSpacing.git
@@ -83,5 +86,14 @@
 
 # jpype1 : connecting python and java
 #conda install -c conda-forge -y jpype1
+
+# xmltodict
+#conda install -c conda-forge -y xmltodict
+
+# beautifulsoup
+#conda install -c conda-forge -y beautifulsoup4
+
+# wordcloud
+#conda install -c conda-forge -y wordcloud
 
 Exit 0
