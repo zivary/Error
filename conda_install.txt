@@ -90,8 +90,11 @@
 # xmltodict
 #conda install -c conda-forge -y xmltodict
 
+# 크롤링 스크래핑
 # beautifulsoup
 #conda install -c conda-forge -y beautifulsoup4
+# selenium
+#conda install -c conda-forge -y selenium
 
 # wordcloud
 #conda install -c conda-forge -y wordcloud
